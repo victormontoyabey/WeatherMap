@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FDE2A9;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.location, .temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+} 
+
+.degree-section span {
+    margin: 10px;
+    font-size: 36px;
+}
+
+.temperature-degree {
+    font-size: 85px;
+    cursor: pointer;
+}
